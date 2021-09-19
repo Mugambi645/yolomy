@@ -42,3 +42,21 @@ nav {
     font-size: 30px;
     font-weight: bold;
 }
+#selection
+{
+    height: 15vh;
+    background: #C6BFA5;
+}
+#selection  .container{
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-content: center;
+
+    margin: 0 auto
+}
+.view-all{
+    text-align: end;
+    justify-self: end;
+}
