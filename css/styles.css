@@ -196,6 +196,9 @@ nav {
     
 
 }
+#about-paragraph {
+    font-size: 20px;
+}
 #about-paragraph:focus-visible {
     backface-visibility: visible;
 }
@@ -211,6 +214,7 @@ nav {
 }
 #promotion-statement {
     margin-left: 4rem;
+    color: white;
 }
 #promo-img{
     height: 25px;
