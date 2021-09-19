@@ -51,7 +51,7 @@ nav {
     height: 100%;
 
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr) !important;
     align-content: center;
 
     margin: 0 auto
@@ -59,4 +59,134 @@ nav {
 .view-all{
     text-align: end;
     justify-self: end;
+}
+/*products session*/
+#products
+{
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+
+.men-header
+{
+    text-transform: uppercase;
+    display: flex;
+    text-rendering: inherit;
+    text-emphasis: bold;
+    flex-direction: row;
+  
+}
+#line
+{
+    height: 2px;
+    width: 100%;
+    margin-left: 3rem;
+    background: gray;
+}
+#women-line {
+    height: 2px;
+    width: 100%;
+    margin-left: 3rem;
+    background: gray;
+}
+#men{
+    margin-top: 4rem;
+}
+
+.scroll-ui{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+    
+    
+    
+}
+
+.products-columns
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2.3rem;
+}
+
+.item{
+    width: 320px;
+    height: 380px;
+    background: rgb(245,245,247);
+    justify-self: center;
+    border: 2px white solid;
+
+    display: grid;
+    grid-template-rows: 10% 70% 20%
+}
+.item:hover{
+    border: 3px #a99b76 solid;
+    cursor: pointer;
+}
+.item img{
+    align-self: center;
+    justify-self: center;
+    height: 80%;
+}
+.item img:hover {
+    cursor: pointer;
+    
+}
+
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+
+.bottom 
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.women-header
+{
+    text-transform: uppercase;
+    display: flex;
+    text-rendering: inherit;
+    text-emphasis: bold;
+    flex-direction: row;
+    margin-top: 3rem;
+  
+}
+#circle1 {
+    background-color: green;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#circle2 {
+    background-color: blue;
+    border-radius: 50%;
+    border: transparent;
+    font-size: 20px;
+}
+#circle3 {
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#circle4 {
+    background-color: pink;
+    border-radius: 50%;
+    border: transparent;
+    font-size: 20px;
+}
+#circle5 {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    outline: none;
 }
