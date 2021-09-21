@@ -32,6 +32,7 @@ nav {
 {
     padding: 0.8rem;
     color: white;
+    display: flex;
 }
 
 #front-info
