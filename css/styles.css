@@ -4,6 +4,8 @@
     background-size: cover;
     height: 100vh;
     display: grid;
+    overflow-y: scroll;
+    white-space: nowrap;
     
     
 }
@@ -198,6 +200,7 @@ nav {
 }
 #about-paragraph {
     font-size: 20px;
+    
 }
 #about-paragraph:focus-visible {
     backface-visibility: visible;
@@ -215,6 +218,7 @@ nav {
 #promotion-statement {
     margin-left: 4rem;
     color: white;
+    
 }
 #promo-img{
     height: 25px;
@@ -247,4 +251,25 @@ nav {
     text-transform: uppercase;
     text-align: center;
 }
+/*responsive*/
+.column {
+    width: 100%;
+  }
+#about {
+    width: 100%;
+    height: 100%;
+}
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media (min-width: 600px) {
+    .header {
+      flex-wrap: nowrap;
+    }
 
+    div {
+      flex-basis: 100%;
+    }
+  }
